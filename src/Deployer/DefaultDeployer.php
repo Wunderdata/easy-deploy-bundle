@@ -341,7 +341,7 @@ abstract class DefaultDeployer extends AbstractDeployer
         }
 
         $this->log('<h2>Installing Composer dependencies</>');
-        $this->runRemote(sprintf('%s install %s', $this->getConfig(Option::remoteComposerBinaryPath), $this->getConfig(Option::composerInstallFlags)));
+        $this->runRemote(sprintf('APP_ENV=prod %s install %s', $this->getConfig(Option::remoteComposerBinaryPath), $this->getConfig(Option::composerInstallFlags)));
     }
 
     private function doInstallWebAssets() : void
