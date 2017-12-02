@@ -1,9 +1,9 @@
 {
-    "name": "easycorp/easy-deploy-bundle",
+    "name": "wunderdata/easy-deploy-bundle-wunderfork",
     "type": "symfony-bundle",
-    "description": "The easiest way to deploy Symfony applications",
+    "description": "The easiest way to deploy Symfony applications, Symfony 4 flex comaptible",
     "keywords": ["deploy", "deployment", "deployer"],
-    "homepage": "https://github.com/EasyCorp/easy-deploy-bundle",
+    "homepage": "https://github.com/Wunderdata/easy-deploy-bundle-wunderfork",
     "license": "MIT",
     "authors": [
         {
