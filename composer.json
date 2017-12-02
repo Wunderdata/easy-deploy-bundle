@@ -1,5 +1,5 @@
 {
-    "name": "wunderdata/easy-deploy-bundle-wunderfork",
+    "name": "djamadeus/easy-deploy-bundle-wunderfork",
     "type": "symfony-bundle",
     "description": "The easiest way to deploy Symfony applications, Symfony 4 flex comaptible",
     "keywords": ["deploy", "deployment", "deployer"],
@@ -9,6 +9,10 @@
         {
             "name": "Javier Eguiluz",
             "email": "javiereguiluz@gmail.com"
+        },
+        {
+            "name": "Stefan Ladenthin",
+            "email": "stefan@wunderdata.com"
         }
     ],
     "require": {
