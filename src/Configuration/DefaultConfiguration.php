@@ -32,7 +32,7 @@ final class DefaultConfiguration extends AbstractConfiguration
     private $repositoryBranch = 'master';
     private $remotePhpBinaryPath = 'php';
     private $updateRemoteComposerBinary = false;
-    private $remoteComposerBinaryPath = 'APP_ENV=prod /usr/local/bin/composer';
+    private $remoteComposerBinaryPath = '/usr/local/bin/composer';
     private $composerInstallFlags = '--no-dev --prefer-dist --no-interaction --quiet';
     private $composerOptimizeFlags = '--optimize';
     private $installWebAssets = true;
