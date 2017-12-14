@@ -69,8 +69,7 @@ abstract class DefaultDeployer extends AbstractDeployer
         $this->doCreateSharedFiles();
         $this->doSetPermissions();
         $this->doInstallDependencies();
-        $this->doInstallWebAssets();
-        $this->doDumpAsseticAssets();
+
 
         $this->log('Executing <hook>beforeOptimizing</> hook');
         $this->beforeOptimizing();
